@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 25vmin;
   pointer-events: none;
 }
 
@@ -24,15 +24,67 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.greeting-name {
+  color: #c2c2c2;
+  margin: 10px 20px;
+  padding: 0;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-shadow: 5px 5px #21252b;
+  user-select: none;
+  letter-spacing: 1px;
+}
+
+.tagline {
+  color: #909295;
+  margin: 5px;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.currentDateTime {
+  font-weight: 300;
+  color: lightblue;
+}
+
+footer {
+  left: 0;
+  width: 100vw;
+  bottom: 0;
+  height: 22px;
+  display: flex;
+  position: fixed;
+  background: #21252b;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  justify-content: space-between;
+}
+
+.master-link {
+  color: #abb2bf;
+  display: flex;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.master-link svg {
+  width: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.bi-bell{
+  width: 13px;
+  padding-right: 10px;
 }
