@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <!-- HTML Meta Tags -->
+  <title>Welcome to Kashyap's Portfolio</title>
+  <meta name="description"
+    content="Welcome to Kashyap's Portfolio build based on vscode theme. He's a passionate techy. Let's checkout more about him in this website. ">
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="Welcome to Kashyap's Portfolio">
+  <meta itemprop="description"
+    content="Welcome to Kashyap's Portfolio build based on vscode theme. He's a passionate techy. Let's checkout more about him in this website. ">
+  <meta itemprop="image"
+    content="https://lh3.googleusercontent.com/pw/AJFCJaVM48B567itS_OzNgq53B82zeofUNageXYwZkqmrQHomi_DVBhD04yTkuSznFYuXpRqzuDck4lG1Byo9lIWm4RcFeEIXEAWZBqXRl_aEewTCNjROxge5jsna1MTpFr05xpOucf8XRpwBUEaxqWQrOrPktzp7ezBe_fiXl1I7cKVsGEeUQ2iOZP8uJLd75gt1VEwXWgeHwcxx2_6fTVtJ5_tZAjZ5U2KTxI7d7FQ7n5tH8q53XQhT3HPwIkZkjgfeWAWypOoCkse6JnPHMKI4VP9kyuVaDyJmkaCMFgezpS5ILO9CVu4rXgIwkSDME3IHkuyqOby3ygm-CRtogUp6D5zmneWzNvpIWNqT6lqtyDpoKRllkFBQe_NZmMTPgwmm7zND086-fRcgOrbhzZy4SZRDnUc8ctU0ug95U_57fknCDJRc0oTx0-wfk3HT81eLxqb1jftWBiLHYrWYhy-GiMWFnw2R0h9pNNZ-PPnbBGCzrh-HsLLhd71V21LGbe8S1tYmmYIZ-LK_QgOqbkknh6uHFoafqN_TQyf_dGQAYVVFOYVZ-O5oqjmsxHHdZzm8uSUOO7pSLPHVhyNv5__-lcBfbUtBQgvZiWqM3xh_3b-Foex0fjRq4BRJkwRSRnTZdz2OhmBJ4lVlqu_y51_5hXnzH0G8Fmst_mR6oeqoQG1ZIGf0HUlUzeof-XLHih2IL4CBiMv5AXo98IU3Vk8xF6KxpR5V-Q6hxUt7fdMhknT_s95ESgRKMkSh4Oq4adZwOF7EgUz5_vAQPheBYSxBqxCJ60Z-up9-fKLw8bGRJ0vbckO6kWH95FH1xvaQWyF1NglEyNAji7crP0jOnNtxgvoCeaeAYmH6lyEjb4Ita0NxBxCuZ0RSJsneOQVhRsWOyLimzs6NHMLEjba_pBOciyMVlPFVgyFT17LFr6obRd_giwkpd_5LkSZhRgwPvA=w1918-h897-s-no?authuser=0">
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://kashyapkaki.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Welcome to Kashyap's Portfolio">
+  <meta property="og:description"
+    content="Welcome to Kashyap's Portfolio build based on vscode theme. He's a passionate techy. Let's checkout more about him in this website. ">
+  <meta property="og:image"
+    content="https://lh3.googleusercontent.com/pw/AJFCJaVM48B567itS_OzNgq53B82zeofUNageXYwZkqmrQHomi_DVBhD04yTkuSznFYuXpRqzuDck4lG1Byo9lIWm4RcFeEIXEAWZBqXRl_aEewTCNjROxge5jsna1MTpFr05xpOucf8XRpwBUEaxqWQrOrPktzp7ezBe_fiXl1I7cKVsGEeUQ2iOZP8uJLd75gt1VEwXWgeHwcxx2_6fTVtJ5_tZAjZ5U2KTxI7d7FQ7n5tH8q53XQhT3HPwIkZkjgfeWAWypOoCkse6JnPHMKI4VP9kyuVaDyJmkaCMFgezpS5ILO9CVu4rXgIwkSDME3IHkuyqOby3ygm-CRtogUp6D5zmneWzNvpIWNqT6lqtyDpoKRllkFBQe_NZmMTPgwmm7zND086-fRcgOrbhzZy4SZRDnUc8ctU0ug95U_57fknCDJRc0oTx0-wfk3HT81eLxqb1jftWBiLHYrWYhy-GiMWFnw2R0h9pNNZ-PPnbBGCzrh-HsLLhd71V21LGbe8S1tYmmYIZ-LK_QgOqbkknh6uHFoafqN_TQyf_dGQAYVVFOYVZ-O5oqjmsxHHdZzm8uSUOO7pSLPHVhyNv5__-lcBfbUtBQgvZiWqM3xh_3b-Foex0fjRq4BRJkwRSRnTZdz2OhmBJ4lVlqu_y51_5hXnzH0G8Fmst_mR6oeqoQG1ZIGf0HUlUzeof-XLHih2IL4CBiMv5AXo98IU3Vk8xF6KxpR5V-Q6hxUt7fdMhknT_s95ESgRKMkSh4Oq4adZwOF7EgUz5_vAQPheBYSxBqxCJ60Z-up9-fKLw8bGRJ0vbckO6kWH95FH1xvaQWyF1NglEyNAji7crP0jOnNtxgvoCeaeAYmH6lyEjb4Ita0NxBxCuZ0RSJsneOQVhRsWOyLimzs6NHMLEjba_pBOciyMVlPFVgyFT17LFr6obRd_giwkpd_5LkSZhRgwPvA=w1918-h897-s-no?authuser=0">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Welcome to Kashyap's Portfolio">
+  <meta name="twitter:description"
+    content="Welcome to Kashyap's Portfolio build based on vscode theme. He's a passionate techy. Let's checkout more about him in this website. ">
+  <meta name="twitter:image"
+    content="https://lh3.googleusercontent.com/pw/AJFCJaVM48B567itS_OzNgq53B82zeofUNageXYwZkqmrQHomi_DVBhD04yTkuSznFYuXpRqzuDck4lG1Byo9lIWm4RcFeEIXEAWZBqXRl_aEewTCNjROxge5jsna1MTpFr05xpOucf8XRpwBUEaxqWQrOrPktzp7ezBe_fiXl1I7cKVsGEeUQ2iOZP8uJLd75gt1VEwXWgeHwcxx2_6fTVtJ5_tZAjZ5U2KTxI7d7FQ7n5tH8q53XQhT3HPwIkZkjgfeWAWypOoCkse6JnPHMKI4VP9kyuVaDyJmkaCMFgezpS5ILO9CVu4rXgIwkSDME3IHkuyqOby3ygm-CRtogUp6D5zmneWzNvpIWNqT6lqtyDpoKRllkFBQe_NZmMTPgwmm7zND086-fRcgOrbhzZy4SZRDnUc8ctU0ug95U_57fknCDJRc0oTx0-wfk3HT81eLxqb1jftWBiLHYrWYhy-GiMWFnw2R0h9pNNZ-PPnbBGCzrh-HsLLhd71V21LGbe8S1tYmmYIZ-LK_QgOqbkknh6uHFoafqN_TQyf_dGQAYVVFOYVZ-O5oqjmsxHHdZzm8uSUOO7pSLPHVhyNv5__-lcBfbUtBQgvZiWqM3xh_3b-Foex0fjRq4BRJkwRSRnTZdz2OhmBJ4lVlqu_y51_5hXnzH0G8Fmst_mR6oeqoQG1ZIGf0HUlUzeof-XLHih2IL4CBiMv5AXo98IU3Vk8xF6KxpR5V-Q6hxUt7fdMhknT_s95ESgRKMkSh4Oq4adZwOF7EgUz5_vAQPheBYSxBqxCJ60Z-up9-fKLw8bGRJ0vbckO6kWH95FH1xvaQWyF1NglEyNAji7crP0jOnNtxgvoCeaeAYmH6lyEjb4Ita0NxBxCuZ0RSJsneOQVhRsWOyLimzs6NHMLEjba_pBOciyMVlPFVgyFT17LFr6obRd_giwkpd_5LkSZhRgwPvA=w1918-h897-s-no?authuser=0">
+
+  <!-- Meta Tags Generated via http://heymeta.com -->
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/android-chrome-192x192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>Kashyap Kaki</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+
 </html>

@@ -12,7 +12,7 @@ const App = () => {
   }, [count])
 
   const typeWriter = () => {
-    let lines = ["I'm a Software Engineer", "I'm Certified SAFe® 5 Practitioner", "I'm a Web Developer", "I'm a Software Developer"];
+    let lines = ["Software Engineer", "Certified SAFe® 5 Practitioner", "Web Developer", "Software Developer"];
     let speed = 120;
     setTimeout(() => {
       if (tagline.tag.length < lines[index].length) {
