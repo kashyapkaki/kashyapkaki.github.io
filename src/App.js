@@ -1,22 +1,14 @@
-import logo from './logo.svg';
+import profilePic from './Profile Pic.jpg';
 import './App.css';
 import { useEffect, useState } from 'react';
 
 const App = () => {
   const [tagline, setTagline] = useState({ tag: "Loading.." })
   const [count, setCount] = useState(0);
-  const [currentDateTime, setCurrentDateTime] = useState(new Date().toString())
 
   useEffect(() => {
     typeWriter();
-    updateDateTime();
   }, [count])
-
-  const updateDateTime = () => {
-    setInterval(() => {
-      setCurrentDateTime(new Date().toString());
-    }, 1000);
-  }
 
   const typeWriter = () => {
     let line = "I'm a Software Developer"
@@ -33,10 +25,9 @@ const App = () => {
   return (
     <div className="App">
       <div className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1 className='greeting-name'>Hi! I'm Kashyap</h1>
+        <img src={profilePic} className="App-logo" alt="logo" />
+        <h2 className='greeting-name'>Hi! I'm Kashyap</h2>
         <h3 className='tagline'>{tagline.tag}</h3>
-        Local Time:<span className='currentDateTime'>{currentDateTime}</span>
       </div>
       <footer>
         <a href="https://github.com/kashyapkaki" rel="noopener noreferrer" target="_blank" className='master-link'>
